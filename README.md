@@ -6,7 +6,7 @@ A simple platform that scrapes real-time product or company reviews, analyzes se
 - **Scraping**: Fetches recent Reddit posts using PRAW.
 - **NLP**: Uses VADER (or similar) to score reviews as positive, neutral, or negative.
 - **Storage**: Saves data in PostgreSQL to track historical sentiment.
-- **Frontend**: React app with Chart.js for bar/line charts and a neat UI.
+- **Frontend**: React app with Chart.js for bar/line charts and a simple UI.
 
 ## How It Works
 1. **Backend** (FastAPI + Python)
