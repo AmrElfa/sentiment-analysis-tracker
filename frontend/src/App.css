@@ -1,0 +1,166 @@
+/* Body with subtle background gradient */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(to bottom right, #fefefe, #eaeaea);
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CCCCCC;
+    color: #000;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .left-menu {
+    position: absolute;
+    left: 20px;
+  }
+  
+  .left-menu select {
+    padding: 0.3rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+  
+  .company-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .analyze-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #CCCCCC;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .analyze-button:hover {
+    background-color: #cccccc;
+  }
+  
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ccc;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 10px;
+}
+
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .company-name {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .score-box {
+    display: inline-block;
+    background: #CCCCCC;
+    padding: 10px 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .score-row {
+    margin-bottom: 20px;
+  }
+  
+  .chart-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .chart-box {
+    flex: 1;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .chart-box h3 {
+    margin-top: 0;
+  }
+  
+  .summary-section,
+  .reviews-section {
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .summary-section h3,
+  .reviews-section h3 {
+    margin-top: 0;
+  }
+  
+  .summary-text {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .review-item {
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  

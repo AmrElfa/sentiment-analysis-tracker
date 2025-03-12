@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+praw
+vaderSentiment
+nltk
+transformers
+torch
+sentencepiece
