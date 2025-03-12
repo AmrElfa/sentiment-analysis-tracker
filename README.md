@@ -41,3 +41,9 @@ A simple platform that scrapes real-time product or company reviews, analyzes se
 - You can tweak the number of Reddit posts in `scraper.py`.
 - Historical data grows each time you re-analyze the same term.
 - If you need deeper summaries, you can integrate a more advanced model (like BART).
+
+## Website in Action
+
+![Screenshot 1](images/pic1.png)
+![Screenshot 2](images/pic2.png)
+![Screenshot 3](images/pic3.png)
